@@ -1,0 +1,19 @@
+{
+  "name": "prepack-now",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "@matthiaskern",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^7.3.2",
+    "microrouter": "^2.1.0",
+    "node-fetch": "^1.6.3",
+    "prepack": "^0.2.0"
+  },
+  "scripts": {
+    "start": "micro"
+  },
+  "now": {
+    "alias": "prepack.now.sh"
+  }
+}
