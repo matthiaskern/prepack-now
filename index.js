@@ -51,7 +51,10 @@ const homeHandler = () => `
     <br>
     query params are mapped to options, e.g.  /url?uniqueSuffix=test
     <br>
-    <p>example: <code>curl -X POST -d "(function () { function hello() { return 'hello'; } function world() { return 'world'; } global.s = hello() + ' ' + world(); })();" prepack.now.sh</code>
+  </p>
+  <p style="width: 400px">
+    <strong>example:</strong><br>
+    <code>curl -X POST -d "(function () { function hello() { return 'hello'; } function world() { return 'world'; } global.s = hello() + ' ' + world(); })();" https://prepack.now.sh/string</code>
   </p>
 `
 
