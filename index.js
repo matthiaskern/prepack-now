@@ -51,6 +51,7 @@ const homeHandler = () => `
     <br>
     query params are mapped to options, e.g.  /url?uniqueSuffix=test
     <br>
+    timeout is fixed to 3000ms for now
   </p>
   <p style="width: 400px">
     <strong>example:</strong><br>
